@@ -17,4 +17,3 @@ jobs:
         uses: undefinedlabs/scope-for-javascript-action@v1
         with:
           dsn: ${{secrets.SCOPE_DSN}} # required
-          command: npm test # optional - default is 'npm test'
