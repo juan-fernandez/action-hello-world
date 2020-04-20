@@ -17,3 +17,5 @@ jobs:
         uses: undefinedlabs/scope-for-javascript-action@master
         with:
           dsn: ${{secrets.SCOPE_DSN}} # required
+          cypress-command: npm run cypress:run
+          cypress-endpoint: https://shared.scope.dev
