@@ -24,6 +24,9 @@
     "testEnvironment": "node",
     "coveragePathIgnorePatterns": [
       "/node_modules/"
+    ],
+    "modulePathIgnorePatterns": [
+      "cypress"
     ]
   },
   "devDependencies": {
