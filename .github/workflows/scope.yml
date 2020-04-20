@@ -14,6 +14,6 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Scope for Javascript
-        uses: undefinedlabs/scope-for-javascript-action@master
+        uses: undefinedlabs/scope-for-javascript-action@174404948938f53c5de5508ae42c19fb76e79d70
         with:
           dsn: ${{secrets.SCOPE_DSN}} # required
